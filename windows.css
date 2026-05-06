@@ -28,7 +28,7 @@ header img{
 .header-right{
      position: absolute;
     bottom: 10px;
-    left: 20px;
+    right: 20px;
     font-size: 1.1rem;
     font-weight: 800;
     color: black;
