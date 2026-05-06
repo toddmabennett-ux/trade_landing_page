@@ -30,16 +30,6 @@ header img{
     color: black;
     letter-spacing: 0.5px;
 }
-.header-left,
-.header-right{
-    position: static;
-    display: inline-block;
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: black;
-    letter-spacing: 0.5px;
-    margin: 0 20px;
-}
 main section p{
     text-align: center;
     font-size: 1.2rem;
