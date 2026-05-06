@@ -6,20 +6,9 @@ body{
 }
 header{
     background-color: paleturquoise;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 40px;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-.header-left{
-    flex: 1;
-    text-align: left;
-    font-size: 1.1rem;
-    font-weight: 800;
-    color: black;
-    letter-spacing: 0.5px;
+    position: relative;
+    text-align: center;
+    padding: 40px 0;
 }
 header img{
     width: 420px;
@@ -27,11 +16,21 @@ header img{
     display: block;
     margin: 0 auto;
 }
-.header-right{
-    flex: 1;
-    text-align: right;
+.header-left{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
     font-size: 1.1rem;
-    font-size: 800;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.header-right{
+     position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 1.1rem;
+    font-weight: 800;
     color: black;
     letter-spacing: 0.5px;
 }
