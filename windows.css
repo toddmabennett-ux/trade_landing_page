@@ -135,7 +135,27 @@ main section p{
     color: #1c88ab;
 }
 @media screen and (max-width:600px){
-    aside, section, article{
-        width: 100%;
+    header{
+        padding: 20px 0;
+        height: auto;
+    }
+    header img{
+        width: 150px;
+        height: auto;
+        position: static;
+        transform: none;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+    .header-left,
+    .header-right{
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+    .header-left{
+        margin-top: 10px;
     }
 }
