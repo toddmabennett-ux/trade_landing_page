@@ -7,34 +7,26 @@ body{
 header{
     background-color: paleturquoise;
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 0;
     position: relative;
+    height: auto;
 }
 header img{
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    position: static;
+    display: block;
+    margin: 0 auto 10px auto;
 }
-.header-left{
-    position: absolute;
-    bottom: -12px;
-    left: 0px;
-    font-size: 1.1rem;
-    font-weight: 800;
-    color: black;
-    letter-spacing: 0.5px;
-}
+.header-left,
 .header-right{
-    position: absolute;
-    bottom: -12px;
-    right: 5px;
-    font-size: 1.1rem;
+    position: static;
+    display: inline-block;
+    font-size: 1.2rem;
     font-weight: 800;
     color: black;
     letter-spacing: 0.5px;
+    margin: 0 20px;
 }
 main section p{
     text-align: center;
