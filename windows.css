@@ -6,17 +6,29 @@ body{
 }
 header{
     background-color: paleturquoise;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    flex-wrap: wrap;
+}
+.header-left{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 0.5px;
 }
 header img{
-    max-width: 300px;
+    width: 300px;
     height: auto;
-    position: static;
     display: block;
-    margin: 0 auto 10px auto;
+    margin: 0 auto;
+}
+.header-right{
+    font-size: 1.1rem;
+    font-size: 800;
+    color: black;
+    letter-spacing: 0.5px;
 }
 .header-left,
 .header-right{
